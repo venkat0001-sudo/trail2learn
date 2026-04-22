@@ -27,6 +27,7 @@ except Exception as e:
     print(f"    ❌ Error: {e}")
 
 # Test 2: Quick inference test with gpt-oss
+#adding comment to test github commits
 print("\n[2] Testing inference with gpt-oss (tiny prompt)...")
 try:
     payload = {
