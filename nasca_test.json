@@ -1,0 +1,62 @@
+{
+  "metadata": {
+    "tool_name": "nasca_test",
+    "tool_version": "0.1.0",
+    "created_at": "2026-04-23T22:00:00",
+    "source_docx": "Behavioral_Specification.docx",
+    "total_entries": 3,
+    "notes": "Roundtrip test — verifies .json survives laptop -> GPU transfer intact"
+  },
+  "entries": [
+    {
+      "key": {
+        "origin": "section",
+        "section": "4.8.3",
+        "parent": null,
+        "topic": null
+      },
+      "topic": "4.8.3 SCP Feature Enable/Disable",
+      "section_number": "4.8.3",
+      "parent_section": "4.8",
+      "top_chapter": "4. Behavioral Specification",
+      "full_text": "The SCP feature shall be enabled or disabled through the Set Feature command. The current status shall be accomplished with the Get Feature command. Admin Opcode 09h, Feature ID D8h. DWORD 10 Bit 31 = SV (Save). DWORD 11 Bit 0 = SCP enable/disable.",
+      "cell_text": null
+    },
+    {
+      "key": {
+        "origin": "table_row",
+        "section": null,
+        "parent": "4.7",
+        "topic": "SMART Feature"
+      },
+      "topic": "SMART Feature",
+      "section_number": null,
+      "parent_section": "4.7",
+      "top_chapter": "4. Behavioral Specification",
+      "full_text": "SSD suppliers shall comply with the firmware features specified in the table below:",
+      "cell_text": "SSD shall comply with SMART Features as specified in Section document."
+    },
+    {
+      "key": {
+        "origin": "table_row",
+        "section": null,
+        "parent": "5",
+        "topic": "Weight"
+      },
+      "topic": "Weight",
+      "section_number": null,
+      "parent_section": "5",
+      "top_chapter": "5. Mechanical",
+      "full_text": "The following table lists key mechanical criteria that SSD shall comply with:",
+      "cell_text": "M.2 2230: 10g max. M.2 2280: 10g max. 기획 요청: request change for higher capacities."
+    }
+  ],
+  "special_chars_test": {
+    "korean":  "기획 요청 (planning request)",
+    "emojis":  "✅ ❌ 🎉 📄",
+    "symbols": "≥ ± ° μ Ω §",
+    "quotes":  "\"smart quotes\" and 'apostrophes'",
+    "escapes": "line1\nline2\ttabbed",
+    "hex":     "0xD8h, 0x09h, 31:16, 2:1"
+  }
+}
